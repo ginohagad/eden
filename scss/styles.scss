@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
+
+$bg-color: #F9FBFA;
+$eden-font: 'Source Serif Pro', serif;
+$gray: #ADADAD;
+$pink: #FC7978;
+
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+nav {
+  background-color: $bg-color;
+  width: 100%;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: $eden-font;
+  display: inline-block;
+  font-size: 25px;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: $gray;
+  }
+
+  &:hover a {
+    color: #000;
+  }
+}
+
+
+li {
+  padding: 10px 30px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+
+.container {
+  padding: 8em 12em;
+}
+
+/* HERO SECTION */
+
+.hero {
+  background-image: url(../img/hero-plant.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+
+  h1 {
+    line-height: 0.8;
+    font-family: $eden-font;
+    font-size: 3.5em;
+    width: 25%;
+  }
+
+  p {
+    margin-top: 50px;
+    width: 20%;
+  }
+
+  .btn-care {
+    display: inline-block;
+    background-color: $pink;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+}

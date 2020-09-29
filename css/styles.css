@@ -90,11 +90,11 @@ li a {
 .hero .button-container {
   flex-direction: column;
   justify-content: space-between;
-  display: flex;
+  position: relative;
 }
 .hero .btn-care {
-  display: flex;
-  justify-content: end;
+  position: absolute;
+  bottom: 0;
   background-color: #FC7978;
   color: #fff;
   padding: 8px 20px;

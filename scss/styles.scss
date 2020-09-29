@@ -110,12 +110,12 @@ li a {
   .button-container {
     flex-direction: column;
     justify-content: space-between;
-    display: flex;
+    position: relative;
   }
 
   .btn-care {
-    display: flex;
-    justify-content: end;
+    position: absolute;
+    bottom: 0;
 
     background-color: $pink;
     color: #fff;

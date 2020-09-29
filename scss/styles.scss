@@ -86,8 +86,14 @@ li a {
   background-repeat: no-repeat;
   background-size: cover; 
   height: 100vh;
-  display: flex;
-  justify-content: space-between;
+  
+  .container {
+    display: flex;
+  }
+  
+  .caption {
+    flex: 3;
+  }
 
   h1 {
     line-height: 0.8;
@@ -101,8 +107,16 @@ li a {
     width: 20%;
   }
 
+  .button-container {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+  }
+
   .btn-care {
-    display: inline-block;
+    display: flex;
+    justify-content: end;
+
     background-color: $pink;
     color: #fff;
     padding: 8px 20px;

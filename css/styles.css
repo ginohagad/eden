@@ -70,8 +70,12 @@ li a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+}
+.hero .container {
   display: flex;
-  justify-content: space-between;
+}
+.hero .caption {
+  flex: 3;
 }
 .hero h1 {
   line-height: 0.8;
@@ -83,8 +87,14 @@ li a {
   margin-top: 50px;
   width: 20%;
 }
+.hero .button-container {
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+}
 .hero .btn-care {
-  display: inline-block;
+  display: flex;
+  justify-content: end;
   background-color: #FC7978;
   color: #fff;
   padding: 8px 20px;

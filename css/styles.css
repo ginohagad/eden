@@ -10,11 +10,19 @@ html {
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-  display: block;
+.yellow {
+  background-color: #FDD782;
 }
 
+.blue {
+  background-color: #4ECDCB;
+}
+
+.pink {
+  background-color: #FC7978;
+}
+
+/**** NAVBAR ****/
 nav {
   background-color: #F9FBFA;
   width: 100%;
@@ -113,6 +121,12 @@ li a {
   margin: 30px auto 50px;
   width: 45%;
   text-align: center;
+}
+.guides i.far, .guides i.fas {
+  font-size: 2em;
+  display: inline-block;
+  border-radius: 50px;
+  padding: 0.6em;
 }
 
 /*# sourceMappingURL=styles.css.map */

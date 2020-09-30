@@ -4,6 +4,8 @@ $bg-color: #F9FBFA;
 $eden-font: 'Source Serif Pro', serif;
 $gray: #ADADAD;
 $pink: #FC7978;
+$blue: #4ECDCB;
+$yellow: #FDD782;
 
 
 html {
@@ -17,10 +19,19 @@ html {
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-  display: block;
+.yellow {
+  background-color: $yellow;
 }
+
+.blue {
+  background-color: $blue;
+}
+
+.pink {
+  background-color: $pink;
+}
+
+/**** NAVBAR ****/
 
 nav {
   background-color: $bg-color;
@@ -136,5 +147,12 @@ li a {
     margin: 30px auto 50px;
     width: 45%;
     text-align: center;
+  }
+
+  i.far, i.fas {
+    font-size: 2em;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 0.6em;
   }
 }

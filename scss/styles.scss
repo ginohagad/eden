@@ -85,7 +85,7 @@ li a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; 
-  height: 100vh;
+  height: 90vh;
   
   .container {
     display: flex;
@@ -108,15 +108,11 @@ li a {
   }
 
   .button-container {
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .btn-care {
-    position: absolute;
-    bottom: 0;
-
     background-color: $pink;
     color: #fff;
     padding: 8px 20px;

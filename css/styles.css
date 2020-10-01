@@ -129,4 +129,20 @@ li a {
   padding: 0.6em;
 }
 
+.guides-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.guide-card {
+  padding: 0 20px;
+  width: 14em;
+}
+.guide-card h2 {
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=styles.css.map */
